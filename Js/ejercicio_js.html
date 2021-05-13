@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var persona={
+        edad: 27,
+        nombre: "Camila",
+        apellido: "Lozano",
+        sexo: "femenino",
+        estadoCivil: "soletra",
+        aPeliculas: ["Titanic", "Matrix", "Harry Potter"],
+        cumplirAnios: function(){
+        persona.edad++;
+        },
+        comer: function(comida){
+        console.log ("Esta comiendo "+ comida);
+        }
+    };
+
+    console.log(persona);
+    persona.comer("Fideos");
+    persona.cumplirAnios();
+    console.log(persona);
+
+
+</script>
+<body>
+    Programa Js.
+</body>
+</html>
