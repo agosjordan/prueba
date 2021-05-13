@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var aArticulos = [
+        ["yerba",200],
+        ["queso",90],
+        ["té", 25],
+        ["galletitas",50]
+        ];
+
+    function actualizarPrecios(aArticulos,numero){
+
+        aArticulos.forEach(function(value,index){
+            aArticulos[index][1] += aArticulos[index][1]*(numero/100);
+        })
+        
+    }
+
+    function imprimirListado(){
+        aArticulos.forEach(function(valor,index) {
+            document.write(valor + "<br>");
+        })
+    }
+</script>
+<body>
+    
+</body>
+</html>
