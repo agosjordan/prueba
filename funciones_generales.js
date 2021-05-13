@@ -14,5 +14,6 @@ window.onload = function(){
             var numero2 = prompt("Ingresar otro numero: ")
         }while (!confirm("Desea confirmar los datos ingresados? "));
         document.write("Los numeron ingresados son " + numero1 + " y " + numero2);
+        alert("hola")
     } 
 }
